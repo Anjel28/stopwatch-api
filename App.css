@@ -1,0 +1,71 @@
+.stopwatch-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.stopwatch-display {
+  font-size: 3rem;
+  margin: 20px 0;
+  font-family: monospace;
+}
+
+.stopwatch-controls {
+  margin: 20px 0;
+}
+
+.stopwatch-controls button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.laps-section {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.laps-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.save-form {
+  margin: 30px 0;
+}
+
+.save-form input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.saved-timers {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.saved-timers ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.saved-timers li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.saved-timers button {
+  padding: 5px 10px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
